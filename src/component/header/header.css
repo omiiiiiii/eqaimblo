@@ -1,0 +1,8 @@
+.header{
+    width: 96.5%;
+    height: 15vh;
+    background-color: rgba(224, 221, 221, 0.605);
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}

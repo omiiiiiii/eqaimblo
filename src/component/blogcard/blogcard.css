@@ -1,0 +1,39 @@
+.blogcard{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between  ;
+    width: 80%;
+    margin: auto; 
+    cursor: pointer;
+}
+
+.card-container-width{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgba(224, 221, 221, 0.605);
+
+}
+
+.card-container-cover{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.add-blog-icon i{
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-top: -45px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
